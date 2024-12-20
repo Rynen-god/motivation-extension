@@ -1,0 +1,10 @@
+.vscode/
+.vscode-test/
+node_modules/
+.gitignore
+.yarnrc
+esbuild.js
+vsc-extension-quickstart.md
+**/*.map
+**/*.ts
+**/.vscode-test.*

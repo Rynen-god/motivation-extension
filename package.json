@@ -1,0 +1,32 @@
+{
+  "name": "motivational-quotes",
+  "displayName": "Motivational Quotes",
+  "description": "A VSCode extension to show motivational messages",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.showMotivationalMessage"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.showMotivationalMessage",
+        "title": "Show Motivational Message"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.2",
+    "tslint": "^6.1.0",
+    "typescript": "^4.9.5",
+    "vscode": "^1.1.37"
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  }
+}
